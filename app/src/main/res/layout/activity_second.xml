@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/vintage_concrete" />
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Quote a Quote"
+        android:layout_marginTop="120sp"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:text="Bring on the Knowledge!"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="25sp"
+        android:paddingRight="25sp"
+        android:textColor="#e7dada" />
+
+
+</RelativeLayout>
