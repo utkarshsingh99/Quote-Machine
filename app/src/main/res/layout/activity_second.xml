@@ -10,17 +10,33 @@
         android:layout_height="match_parent"
         android:background="@drawable/vintage_concrete" />
     <TextView
-        android:id="@+id/intro"
+        android:id="@+id/intro1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to Quote a Quote"
-        android:layout_marginTop="120sp"
+        android:text="Welcome to"
+        android:layout_marginTop="45sp"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp" />
+    <TextView
+        android:id="@+id/intro2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quote a"
+        android:layout_marginTop="105sp"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp" />
+    <TextView
+        android:id="@+id/intro3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quote"
+        android:layout_marginTop="165sp"
         android:layout_centerHorizontal="true"
         android:textSize="35dp" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="330dp"
+        android:layout_marginTop="315dp"
         android:text="Bring on the Knowledge!"
         android:background="@color/colorPrimary"
         android:layout_centerHorizontal="true"
