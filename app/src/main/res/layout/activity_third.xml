@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/vintage_concrete" />
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Link Functionality"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:fontFamily="cursive"/>
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Author"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="270sp"
+        android:textSize="35dp"
+        android:fontFamily="cursive"/>
+    <Button
+        android:id="@+id/NextQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400sp"
+        android:width="270dp"
+        android:background="@color/colorPrimary"
+        android:text="Next Quote"
+        android:textColor="#efeaea"
+        android:textSize="25sp"
+        android:fontFamily="cursive"/>
+</RelativeLayout>

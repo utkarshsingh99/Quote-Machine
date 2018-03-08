@@ -9,40 +9,52 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/vintage_concrete" />
+
     <TextView
         android:id="@+id/intro1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to"
-        android:layout_marginTop="45sp"
         android:layout_centerHorizontal="true"
-        android:textSize="35dp" />
+        android:layout_marginTop="35sp"
+        android:fontFamily="cursive"
+        android:text="Welcome to"
+        android:textSize="55dp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/intro2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quote a"
-        android:layout_marginTop="105sp"
         android:layout_centerHorizontal="true"
-        android:textSize="35dp" />
+        android:layout_marginTop="105sp"
+        android:fontFamily="cursive"
+        android:text="Quote a"
+        android:textSize="55dp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/intro3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quote"
-        android:layout_marginTop="165sp"
         android:layout_centerHorizontal="true"
-        android:textSize="35dp" />
+        android:layout_marginTop="175sp"
+        android:fontFamily="cursive"
+        android:text="Quote"
+        android:textSize="55dp"
+        android:textStyle="bold" />
     <Button
+        android:id="@+id/initbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="315dp"
-        android:text="Bring on the Knowledge!"
+        android:layout_marginTop="325dp"
+        android:text="Bring on the Motivation!"
         android:background="@color/colorPrimary"
         android:layout_centerHorizontal="true"
         android:paddingLeft="25sp"
         android:paddingRight="25sp"
-        android:textColor="#e7dada" />
+        android:textColor="#e7dada"
+        android:textSize="20dp"
+        android:fontFamily="cursive"/>
 
 
 </RelativeLayout>
